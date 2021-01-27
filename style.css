@@ -1,0 +1,129 @@
+html,*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+section{
+    background-image: url(assets/img/atleta-women.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 42%;
+}
+
+
+.nav-1{
+    display: flex;
+    width: 100%;
+    height: 10vh; 
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-1 h1{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 25px;
+}
+.nav-1 ul{
+    list-style: none;
+}
+.nav-1 ul a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: #707070;
+    margin-right: 1rem;
+    font-size: 15px;
+    font-weight: 300;
+}
+.nav-1 ul a:hover{
+    font-weight: bold;
+    color: #000000;
+}
+.fundo-laranja{
+    background-image: url(assets/img/laranja-azul.png);
+    width: 99vw;
+    height: 60vh;
+    background-position: center;
+    background-size: 100%;
+    display: flex;
+    align-items: center; 
+}
+.fundo-laranja div{
+    color: #fff;
+    font-weight: bold;
+    margin-left: 11rem;
+}
+    
+.fundo-laranja h2{
+    font-weight: 800;
+    font-size: 45px;
+}
+.fundo-laranja div p{
+    text-transform: uppercase;
+    font-weight:300;
+    margin-top: 2rem;
+    font-size: 20px;
+}
+
+.nav-2{
+    display: flex;
+    width: 100%;
+    height: 10vh; 
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-2 ul{
+    list-style: none;
+}
+.nav-2 ul a{
+    text-decoration: none;
+    justify-content: space-around;
+    color: #000;
+    margin-right: 1rem; 
+    font-weight: 400;
+    font-size: 15px;   
+}
+.nav-2 ul a:hover{
+    font-weight: bold;
+    color: #BC0606;
+}
+.the-pictures{
+    margin-left: 12rem;
+
+}
+.the-pictures img{
+    width: 20%;
+    margin: 2px;
+}
+footer section{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #F6F6F6;
+    height: 10vh;
+    margin-top: 5%;
+}
+footer img{
+    width: 20%;
+    margin-left: 8%;
+}
+
+/* footer p{
+    width: 20%;
+    font-size: 10px;
+} */
+footer div{
+    display: flex;
+    align-items: center;
+    width: 30rem;
+    margin-right: 14%;
+}
+
+.caracter{
+    font-size: 8px;
+    width: 20rem;
+    margin-left: 5%;
+}
